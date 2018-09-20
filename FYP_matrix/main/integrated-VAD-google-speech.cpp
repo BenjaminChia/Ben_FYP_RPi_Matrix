@@ -7,7 +7,7 @@
 #include <mqueue.h>
 #include <fcntl.h>
 
-#include <grpc++/grpc++.h>
+#include <grpcpp/grpcpp.h>
 #include <google/cloud/speech/v1/cloud_speech.grpc.pb.h>
 
 #include <libsocket/inetserverstream.hpp>
