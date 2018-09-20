@@ -19,7 +19,7 @@
 #include "../matrix-hal/cpp/driver/everloop_image.h"
 #include "../matrix-hal/cpp/driver/microphone_array.h"
 #include "../matrix-hal/cpp/driver/wishbone_bus.h"
-#include "sine_wave_simulator.h"
+//#include "sine_wave_simulator.h"
 
 #include "sharedResources.h"
 

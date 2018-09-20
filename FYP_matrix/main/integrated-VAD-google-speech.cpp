@@ -8,7 +8,7 @@
 #include <fcntl.h>
 
 #include <grpc++/grpc++.h>
-#include <google/cloud/speech/v1beta1/cloud_speech.grpc.pb.h>
+#include <google/cloud/speech/v1/cloud_speech.grpc.pb.h>
 
 #include <libsocket/inetserverstream.hpp>
 #include <libsocket/exception.hpp>
@@ -22,10 +22,10 @@
 
 namespace GoogleSpeech {
 
-using google::cloud::speech::v1beta1::RecognitionConfig;
-using google::cloud::speech::v1beta1::Speech;
-using google::cloud::speech::v1beta1::StreamingRecognizeRequest;
-using google::cloud::speech::v1beta1::StreamingRecognizeResponse;
+using google::cloud::speech::v1::RecognitionConfig;
+using google::cloud::speech::v1::Speech;
+using google::cloud::speech::v1::StreamingRecognizeRequest;
+using google::cloud::speech::v1::StreamingRecognizeResponse;
 
 #define FRAME_SIZE 480
 #define NUM_CHANNELS 8
@@ -256,7 +256,7 @@ void *SpeechRecognition(void *null) {
 	// configure audio signal property
 	StreamingRecognizeRequest configRequest;
 	auto* streaming_config = configRequest.mutable_streaming_config();
-	streaming_config->mutable_config()->set_sample_rate(16000);
+	streaming_config->mutable_config()->set_sample_rate_hertz(16000);
 	streaming_config->mutable_config()->set_encoding(RecognitionConfig::LINEAR16);
 	streaming_config->mutable_config()->set_language_code("en-US");
 	streaming_config->set_interim_results(true);
