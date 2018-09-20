@@ -34,7 +34,7 @@
   <ImportGroup Label="PropertySheets" />
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
-    <RemoteCppCompileToolExe>g++ -I/home/pi/google-speech-api/googleapis/gens</RemoteCppCompileToolExe>
+    <RemoteCppCompileToolExe>g++ -I/home/pi/Ben/googleapis/gens</RemoteCppCompileToolExe>
     <RemoteLdToolExe>g++</RemoteLdToolExe>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
