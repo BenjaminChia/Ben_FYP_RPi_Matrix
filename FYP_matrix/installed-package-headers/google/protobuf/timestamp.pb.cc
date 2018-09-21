@@ -40,7 +40,7 @@ static void InitDefaultsTimestamp() {
   ::google::protobuf::Timestamp::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<0> scc_info_Timestamp =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<0> scc_info_Timestamp =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsTimestamp}, {}};
 
 void InitDefaults() {

@@ -81,7 +81,7 @@ static void InitDefaultsListValue() {
   ::google::protobuf::ListValue::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<0> scc_info_ListValue =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<0> scc_info_ListValue =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsListValue}, {}};
 
 void InitDefaults() {

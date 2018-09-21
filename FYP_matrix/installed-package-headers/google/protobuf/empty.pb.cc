@@ -40,7 +40,7 @@ static void InitDefaultsEmpty() {
   ::google::protobuf::Empty::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<0> scc_info_Empty =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<0> scc_info_Empty =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsEmpty}, {}};
 
 void InitDefaults() {

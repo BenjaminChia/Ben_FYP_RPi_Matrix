@@ -32,11 +32,11 @@
 #include <google/protobuf/unknown_field_set.h>
 #include <google/protobuf/any.h>
 // @@protoc_insertion_point(includes)
-#define PROTOBUF_INTERNAL_EXPORT_protobuf_google_2fprotobuf_2fany_2eproto 
+#define PROTOBUF_INTERNAL_EXPORT_protobuf_google_2fprotobuf_2fany_2eproto LIBPROTOBUF_EXPORT
 
 namespace protobuf_google_2fprotobuf_2fany_2eproto {
 // Internal implementation detail -- do not use these members.
-struct TableStruct {
+struct LIBPROTOBUF_EXPORT TableStruct {
   static const ::google::protobuf::internal::ParseTableField entries[];
   static const ::google::protobuf::internal::AuxillaryParseTableField aux[];
   static const ::google::protobuf::internal::ParseTable schema[1];
@@ -44,18 +44,18 @@ struct TableStruct {
   static const ::google::protobuf::internal::SerializationTable serialization_table[];
   static const ::google::protobuf::uint32 offsets[];
 };
-void AddDescriptors();
+void LIBPROTOBUF_EXPORT AddDescriptors();
 }  // namespace protobuf_google_2fprotobuf_2fany_2eproto
 namespace google {
 namespace protobuf {
 class Any;
 class AnyDefaultTypeInternal;
-extern AnyDefaultTypeInternal _Any_default_instance_;
+LIBPROTOBUF_EXPORT extern AnyDefaultTypeInternal _Any_default_instance_;
 }  // namespace protobuf
 }  // namespace google
 namespace google {
 namespace protobuf {
-template<> ::google::protobuf::Any* Arena::CreateMaybeMessage<::google::protobuf::Any>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::Any* Arena::CreateMaybeMessage<::google::protobuf::Any>(Arena*);
 }  // namespace protobuf
 }  // namespace google
 namespace google {
@@ -63,7 +63,7 @@ namespace protobuf {
 
 // ===================================================================
 
-class Any : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.Any) */ {
+class LIBPROTOBUF_EXPORT Any : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.Any) */ {
  public:
   Any();
   virtual ~Any();

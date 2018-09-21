@@ -31,11 +31,11 @@
 #include <google/protobuf/extension_set.h>  // IWYU pragma: export
 #include <google/protobuf/unknown_field_set.h>
 // @@protoc_insertion_point(includes)
-#define PROTOBUF_INTERNAL_EXPORT_protobuf_google_2fprotobuf_2ftimestamp_2eproto 
+#define PROTOBUF_INTERNAL_EXPORT_protobuf_google_2fprotobuf_2ftimestamp_2eproto LIBPROTOBUF_EXPORT
 
 namespace protobuf_google_2fprotobuf_2ftimestamp_2eproto {
 // Internal implementation detail -- do not use these members.
-struct TableStruct {
+struct LIBPROTOBUF_EXPORT TableStruct {
   static const ::google::protobuf::internal::ParseTableField entries[];
   static const ::google::protobuf::internal::AuxillaryParseTableField aux[];
   static const ::google::protobuf::internal::ParseTable schema[1];
@@ -43,18 +43,18 @@ struct TableStruct {
   static const ::google::protobuf::internal::SerializationTable serialization_table[];
   static const ::google::protobuf::uint32 offsets[];
 };
-void AddDescriptors();
+void LIBPROTOBUF_EXPORT AddDescriptors();
 }  // namespace protobuf_google_2fprotobuf_2ftimestamp_2eproto
 namespace google {
 namespace protobuf {
 class Timestamp;
 class TimestampDefaultTypeInternal;
-extern TimestampDefaultTypeInternal _Timestamp_default_instance_;
+LIBPROTOBUF_EXPORT extern TimestampDefaultTypeInternal _Timestamp_default_instance_;
 }  // namespace protobuf
 }  // namespace google
 namespace google {
 namespace protobuf {
-template<> ::google::protobuf::Timestamp* Arena::CreateMaybeMessage<::google::protobuf::Timestamp>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::Timestamp* Arena::CreateMaybeMessage<::google::protobuf::Timestamp>(Arena*);
 }  // namespace protobuf
 }  // namespace google
 namespace google {
@@ -62,7 +62,7 @@ namespace protobuf {
 
 // ===================================================================
 
-class Timestamp : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.Timestamp) */ {
+class LIBPROTOBUF_EXPORT Timestamp : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.Timestamp) */ {
  public:
   Timestamp();
   virtual ~Timestamp();

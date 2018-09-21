@@ -64,7 +64,7 @@ static void InitDefaultsVersion() {
   ::google::protobuf::compiler::Version::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<0> scc_info_Version =
+LIBPROTOC_EXPORT ::google::protobuf::internal::SCCInfo<0> scc_info_Version =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsVersion}, {}};
 
 static void InitDefaultsCodeGeneratorRequest() {
@@ -78,7 +78,7 @@ static void InitDefaultsCodeGeneratorRequest() {
   ::google::protobuf::compiler::CodeGeneratorRequest::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<2> scc_info_CodeGeneratorRequest =
+LIBPROTOC_EXPORT ::google::protobuf::internal::SCCInfo<2> scc_info_CodeGeneratorRequest =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 2, InitDefaultsCodeGeneratorRequest}, {
       &protobuf_google_2fprotobuf_2fdescriptor_2eproto::scc_info_FileDescriptorProto.base,
       &protobuf_google_2fprotobuf_2fcompiler_2fplugin_2eproto::scc_info_Version.base,}};
@@ -94,7 +94,7 @@ static void InitDefaultsCodeGeneratorResponse_File() {
   ::google::protobuf::compiler::CodeGeneratorResponse_File::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<0> scc_info_CodeGeneratorResponse_File =
+LIBPROTOC_EXPORT ::google::protobuf::internal::SCCInfo<0> scc_info_CodeGeneratorResponse_File =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsCodeGeneratorResponse_File}, {}};
 
 static void InitDefaultsCodeGeneratorResponse() {
@@ -108,7 +108,7 @@ static void InitDefaultsCodeGeneratorResponse() {
   ::google::protobuf::compiler::CodeGeneratorResponse::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<1> scc_info_CodeGeneratorResponse =
+LIBPROTOC_EXPORT ::google::protobuf::internal::SCCInfo<1> scc_info_CodeGeneratorResponse =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsCodeGeneratorResponse}, {
       &protobuf_google_2fprotobuf_2fcompiler_2fplugin_2eproto::scc_info_CodeGeneratorResponse_File.base,}};
 

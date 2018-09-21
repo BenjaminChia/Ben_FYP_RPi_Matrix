@@ -34,11 +34,11 @@
 #include <google/protobuf/any.pb.h>
 #include <google/protobuf/source_context.pb.h>
 // @@protoc_insertion_point(includes)
-#define PROTOBUF_INTERNAL_EXPORT_protobuf_google_2fprotobuf_2ftype_2eproto 
+#define PROTOBUF_INTERNAL_EXPORT_protobuf_google_2fprotobuf_2ftype_2eproto LIBPROTOBUF_EXPORT
 
 namespace protobuf_google_2fprotobuf_2ftype_2eproto {
 // Internal implementation detail -- do not use these members.
-struct TableStruct {
+struct LIBPROTOBUF_EXPORT TableStruct {
   static const ::google::protobuf::internal::ParseTableField entries[];
   static const ::google::protobuf::internal::AuxillaryParseTableField aux[];
   static const ::google::protobuf::internal::ParseTable schema[5];
@@ -46,34 +46,34 @@ struct TableStruct {
   static const ::google::protobuf::internal::SerializationTable serialization_table[];
   static const ::google::protobuf::uint32 offsets[];
 };
-void AddDescriptors();
+void LIBPROTOBUF_EXPORT AddDescriptors();
 }  // namespace protobuf_google_2fprotobuf_2ftype_2eproto
 namespace google {
 namespace protobuf {
 class Enum;
 class EnumDefaultTypeInternal;
-extern EnumDefaultTypeInternal _Enum_default_instance_;
+LIBPROTOBUF_EXPORT extern EnumDefaultTypeInternal _Enum_default_instance_;
 class EnumValue;
 class EnumValueDefaultTypeInternal;
-extern EnumValueDefaultTypeInternal _EnumValue_default_instance_;
+LIBPROTOBUF_EXPORT extern EnumValueDefaultTypeInternal _EnumValue_default_instance_;
 class Field;
 class FieldDefaultTypeInternal;
-extern FieldDefaultTypeInternal _Field_default_instance_;
+LIBPROTOBUF_EXPORT extern FieldDefaultTypeInternal _Field_default_instance_;
 class Option;
 class OptionDefaultTypeInternal;
-extern OptionDefaultTypeInternal _Option_default_instance_;
+LIBPROTOBUF_EXPORT extern OptionDefaultTypeInternal _Option_default_instance_;
 class Type;
 class TypeDefaultTypeInternal;
-extern TypeDefaultTypeInternal _Type_default_instance_;
+LIBPROTOBUF_EXPORT extern TypeDefaultTypeInternal _Type_default_instance_;
 }  // namespace protobuf
 }  // namespace google
 namespace google {
 namespace protobuf {
-template<> ::google::protobuf::Enum* Arena::CreateMaybeMessage<::google::protobuf::Enum>(Arena*);
-template<> ::google::protobuf::EnumValue* Arena::CreateMaybeMessage<::google::protobuf::EnumValue>(Arena*);
-template<> ::google::protobuf::Field* Arena::CreateMaybeMessage<::google::protobuf::Field>(Arena*);
-template<> ::google::protobuf::Option* Arena::CreateMaybeMessage<::google::protobuf::Option>(Arena*);
-template<> ::google::protobuf::Type* Arena::CreateMaybeMessage<::google::protobuf::Type>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::Enum* Arena::CreateMaybeMessage<::google::protobuf::Enum>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::EnumValue* Arena::CreateMaybeMessage<::google::protobuf::EnumValue>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::Field* Arena::CreateMaybeMessage<::google::protobuf::Field>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::Option* Arena::CreateMaybeMessage<::google::protobuf::Option>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::Type* Arena::CreateMaybeMessage<::google::protobuf::Type>(Arena*);
 }  // namespace protobuf
 }  // namespace google
 namespace google {
@@ -102,12 +102,12 @@ enum Field_Kind {
   Field_Kind_Field_Kind_INT_MIN_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32min,
   Field_Kind_Field_Kind_INT_MAX_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32max
 };
-bool Field_Kind_IsValid(int value);
+LIBPROTOBUF_EXPORT bool Field_Kind_IsValid(int value);
 const Field_Kind Field_Kind_Kind_MIN = Field_Kind_TYPE_UNKNOWN;
 const Field_Kind Field_Kind_Kind_MAX = Field_Kind_TYPE_SINT64;
 const int Field_Kind_Kind_ARRAYSIZE = Field_Kind_Kind_MAX + 1;
 
-const ::google::protobuf::EnumDescriptor* Field_Kind_descriptor();
+LIBPROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor* Field_Kind_descriptor();
 inline const ::std::string& Field_Kind_Name(Field_Kind value) {
   return ::google::protobuf::internal::NameOfEnum(
     Field_Kind_descriptor(), value);
@@ -125,12 +125,12 @@ enum Field_Cardinality {
   Field_Cardinality_Field_Cardinality_INT_MIN_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32min,
   Field_Cardinality_Field_Cardinality_INT_MAX_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32max
 };
-bool Field_Cardinality_IsValid(int value);
+LIBPROTOBUF_EXPORT bool Field_Cardinality_IsValid(int value);
 const Field_Cardinality Field_Cardinality_Cardinality_MIN = Field_Cardinality_CARDINALITY_UNKNOWN;
 const Field_Cardinality Field_Cardinality_Cardinality_MAX = Field_Cardinality_CARDINALITY_REPEATED;
 const int Field_Cardinality_Cardinality_ARRAYSIZE = Field_Cardinality_Cardinality_MAX + 1;
 
-const ::google::protobuf::EnumDescriptor* Field_Cardinality_descriptor();
+LIBPROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor* Field_Cardinality_descriptor();
 inline const ::std::string& Field_Cardinality_Name(Field_Cardinality value) {
   return ::google::protobuf::internal::NameOfEnum(
     Field_Cardinality_descriptor(), value);
@@ -146,12 +146,12 @@ enum Syntax {
   Syntax_INT_MIN_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32min,
   Syntax_INT_MAX_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32max
 };
-bool Syntax_IsValid(int value);
+LIBPROTOBUF_EXPORT bool Syntax_IsValid(int value);
 const Syntax Syntax_MIN = SYNTAX_PROTO2;
 const Syntax Syntax_MAX = SYNTAX_PROTO3;
 const int Syntax_ARRAYSIZE = Syntax_MAX + 1;
 
-const ::google::protobuf::EnumDescriptor* Syntax_descriptor();
+LIBPROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor* Syntax_descriptor();
 inline const ::std::string& Syntax_Name(Syntax value) {
   return ::google::protobuf::internal::NameOfEnum(
     Syntax_descriptor(), value);
@@ -163,7 +163,7 @@ inline bool Syntax_Parse(
 }
 // ===================================================================
 
-class Type : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.Type) */ {
+class LIBPROTOBUF_EXPORT Type : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.Type) */ {
  public:
   Type();
   virtual ~Type();
@@ -370,7 +370,7 @@ class Type : public ::google::protobuf::Message /* @@protoc_insertion_point(clas
 };
 // -------------------------------------------------------------------
 
-class Field : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.Field) */ {
+class LIBPROTOBUF_EXPORT Field : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.Field) */ {
  public:
   Field();
   virtual ~Field();
@@ -715,7 +715,7 @@ class Field : public ::google::protobuf::Message /* @@protoc_insertion_point(cla
 };
 // -------------------------------------------------------------------
 
-class Enum : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.Enum) */ {
+class LIBPROTOBUF_EXPORT Enum : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.Enum) */ {
  public:
   Enum();
   virtual ~Enum();
@@ -899,7 +899,7 @@ class Enum : public ::google::protobuf::Message /* @@protoc_insertion_point(clas
 };
 // -------------------------------------------------------------------
 
-class EnumValue : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.EnumValue) */ {
+class LIBPROTOBUF_EXPORT EnumValue : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.EnumValue) */ {
  public:
   EnumValue();
   virtual ~EnumValue();
@@ -1054,7 +1054,7 @@ class EnumValue : public ::google::protobuf::Message /* @@protoc_insertion_point
 };
 // -------------------------------------------------------------------
 
-class Option : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.Option) */ {
+class LIBPROTOBUF_EXPORT Option : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.Option) */ {
  public:
   Option();
   virtual ~Option();

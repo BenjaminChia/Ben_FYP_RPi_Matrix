@@ -40,7 +40,7 @@ static void InitDefaultsFieldMask() {
   ::google::protobuf::FieldMask::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<0> scc_info_FieldMask =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<0> scc_info_FieldMask =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsFieldMask}, {}};
 
 void InitDefaults() {

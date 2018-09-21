@@ -60,7 +60,7 @@ static void InitDefaultsApi() {
   ::google::protobuf::Api::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<4> scc_info_Api =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<4> scc_info_Api =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 4, InitDefaultsApi}, {
       &protobuf_google_2fprotobuf_2fapi_2eproto::scc_info_Method.base,
       &protobuf_google_2fprotobuf_2ftype_2eproto::scc_info_Option.base,
@@ -78,7 +78,7 @@ static void InitDefaultsMethod() {
   ::google::protobuf::Method::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<1> scc_info_Method =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<1> scc_info_Method =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsMethod}, {
       &protobuf_google_2fprotobuf_2ftype_2eproto::scc_info_Option.base,}};
 
@@ -93,7 +93,7 @@ static void InitDefaultsMixin() {
   ::google::protobuf::Mixin::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<0> scc_info_Mixin =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<0> scc_info_Mixin =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsMixin}, {}};
 
 void InitDefaults() {

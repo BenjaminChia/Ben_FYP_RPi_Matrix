@@ -32,11 +32,11 @@
 #include <google/protobuf/generated_enum_reflection.h>
 #include <google/protobuf/unknown_field_set.h>
 // @@protoc_insertion_point(includes)
-#define PROTOBUF_INTERNAL_EXPORT_protobuf_google_2fprotobuf_2fdescriptor_2eproto 
+#define PROTOBUF_INTERNAL_EXPORT_protobuf_google_2fprotobuf_2fdescriptor_2eproto LIBPROTOBUF_EXPORT
 
 namespace protobuf_google_2fprotobuf_2fdescriptor_2eproto {
 // Internal implementation detail -- do not use these members.
-struct TableStruct {
+struct LIBPROTOBUF_EXPORT TableStruct {
   static const ::google::protobuf::internal::ParseTableField entries[];
   static const ::google::protobuf::internal::AuxillaryParseTableField aux[];
   static const ::google::protobuf::internal::ParseTable schema[27];
@@ -44,122 +44,122 @@ struct TableStruct {
   static const ::google::protobuf::internal::SerializationTable serialization_table[];
   static const ::google::protobuf::uint32 offsets[];
 };
-void AddDescriptors();
+void LIBPROTOBUF_EXPORT AddDescriptors();
 }  // namespace protobuf_google_2fprotobuf_2fdescriptor_2eproto
 namespace google {
 namespace protobuf {
 class DescriptorProto;
 class DescriptorProtoDefaultTypeInternal;
-extern DescriptorProtoDefaultTypeInternal _DescriptorProto_default_instance_;
+LIBPROTOBUF_EXPORT extern DescriptorProtoDefaultTypeInternal _DescriptorProto_default_instance_;
 class DescriptorProto_ExtensionRange;
 class DescriptorProto_ExtensionRangeDefaultTypeInternal;
-extern DescriptorProto_ExtensionRangeDefaultTypeInternal _DescriptorProto_ExtensionRange_default_instance_;
+LIBPROTOBUF_EXPORT extern DescriptorProto_ExtensionRangeDefaultTypeInternal _DescriptorProto_ExtensionRange_default_instance_;
 class DescriptorProto_ReservedRange;
 class DescriptorProto_ReservedRangeDefaultTypeInternal;
-extern DescriptorProto_ReservedRangeDefaultTypeInternal _DescriptorProto_ReservedRange_default_instance_;
+LIBPROTOBUF_EXPORT extern DescriptorProto_ReservedRangeDefaultTypeInternal _DescriptorProto_ReservedRange_default_instance_;
 class EnumDescriptorProto;
 class EnumDescriptorProtoDefaultTypeInternal;
-extern EnumDescriptorProtoDefaultTypeInternal _EnumDescriptorProto_default_instance_;
+LIBPROTOBUF_EXPORT extern EnumDescriptorProtoDefaultTypeInternal _EnumDescriptorProto_default_instance_;
 class EnumDescriptorProto_EnumReservedRange;
 class EnumDescriptorProto_EnumReservedRangeDefaultTypeInternal;
-extern EnumDescriptorProto_EnumReservedRangeDefaultTypeInternal _EnumDescriptorProto_EnumReservedRange_default_instance_;
+LIBPROTOBUF_EXPORT extern EnumDescriptorProto_EnumReservedRangeDefaultTypeInternal _EnumDescriptorProto_EnumReservedRange_default_instance_;
 class EnumOptions;
 class EnumOptionsDefaultTypeInternal;
-extern EnumOptionsDefaultTypeInternal _EnumOptions_default_instance_;
+LIBPROTOBUF_EXPORT extern EnumOptionsDefaultTypeInternal _EnumOptions_default_instance_;
 class EnumValueDescriptorProto;
 class EnumValueDescriptorProtoDefaultTypeInternal;
-extern EnumValueDescriptorProtoDefaultTypeInternal _EnumValueDescriptorProto_default_instance_;
+LIBPROTOBUF_EXPORT extern EnumValueDescriptorProtoDefaultTypeInternal _EnumValueDescriptorProto_default_instance_;
 class EnumValueOptions;
 class EnumValueOptionsDefaultTypeInternal;
-extern EnumValueOptionsDefaultTypeInternal _EnumValueOptions_default_instance_;
+LIBPROTOBUF_EXPORT extern EnumValueOptionsDefaultTypeInternal _EnumValueOptions_default_instance_;
 class ExtensionRangeOptions;
 class ExtensionRangeOptionsDefaultTypeInternal;
-extern ExtensionRangeOptionsDefaultTypeInternal _ExtensionRangeOptions_default_instance_;
+LIBPROTOBUF_EXPORT extern ExtensionRangeOptionsDefaultTypeInternal _ExtensionRangeOptions_default_instance_;
 class FieldDescriptorProto;
 class FieldDescriptorProtoDefaultTypeInternal;
-extern FieldDescriptorProtoDefaultTypeInternal _FieldDescriptorProto_default_instance_;
+LIBPROTOBUF_EXPORT extern FieldDescriptorProtoDefaultTypeInternal _FieldDescriptorProto_default_instance_;
 class FieldOptions;
 class FieldOptionsDefaultTypeInternal;
-extern FieldOptionsDefaultTypeInternal _FieldOptions_default_instance_;
+LIBPROTOBUF_EXPORT extern FieldOptionsDefaultTypeInternal _FieldOptions_default_instance_;
 class FileDescriptorProto;
 class FileDescriptorProtoDefaultTypeInternal;
-extern FileDescriptorProtoDefaultTypeInternal _FileDescriptorProto_default_instance_;
+LIBPROTOBUF_EXPORT extern FileDescriptorProtoDefaultTypeInternal _FileDescriptorProto_default_instance_;
 class FileDescriptorSet;
 class FileDescriptorSetDefaultTypeInternal;
-extern FileDescriptorSetDefaultTypeInternal _FileDescriptorSet_default_instance_;
+LIBPROTOBUF_EXPORT extern FileDescriptorSetDefaultTypeInternal _FileDescriptorSet_default_instance_;
 class FileOptions;
 class FileOptionsDefaultTypeInternal;
-extern FileOptionsDefaultTypeInternal _FileOptions_default_instance_;
+LIBPROTOBUF_EXPORT extern FileOptionsDefaultTypeInternal _FileOptions_default_instance_;
 class GeneratedCodeInfo;
 class GeneratedCodeInfoDefaultTypeInternal;
-extern GeneratedCodeInfoDefaultTypeInternal _GeneratedCodeInfo_default_instance_;
+LIBPROTOBUF_EXPORT extern GeneratedCodeInfoDefaultTypeInternal _GeneratedCodeInfo_default_instance_;
 class GeneratedCodeInfo_Annotation;
 class GeneratedCodeInfo_AnnotationDefaultTypeInternal;
-extern GeneratedCodeInfo_AnnotationDefaultTypeInternal _GeneratedCodeInfo_Annotation_default_instance_;
+LIBPROTOBUF_EXPORT extern GeneratedCodeInfo_AnnotationDefaultTypeInternal _GeneratedCodeInfo_Annotation_default_instance_;
 class MessageOptions;
 class MessageOptionsDefaultTypeInternal;
-extern MessageOptionsDefaultTypeInternal _MessageOptions_default_instance_;
+LIBPROTOBUF_EXPORT extern MessageOptionsDefaultTypeInternal _MessageOptions_default_instance_;
 class MethodDescriptorProto;
 class MethodDescriptorProtoDefaultTypeInternal;
-extern MethodDescriptorProtoDefaultTypeInternal _MethodDescriptorProto_default_instance_;
+LIBPROTOBUF_EXPORT extern MethodDescriptorProtoDefaultTypeInternal _MethodDescriptorProto_default_instance_;
 class MethodOptions;
 class MethodOptionsDefaultTypeInternal;
-extern MethodOptionsDefaultTypeInternal _MethodOptions_default_instance_;
+LIBPROTOBUF_EXPORT extern MethodOptionsDefaultTypeInternal _MethodOptions_default_instance_;
 class OneofDescriptorProto;
 class OneofDescriptorProtoDefaultTypeInternal;
-extern OneofDescriptorProtoDefaultTypeInternal _OneofDescriptorProto_default_instance_;
+LIBPROTOBUF_EXPORT extern OneofDescriptorProtoDefaultTypeInternal _OneofDescriptorProto_default_instance_;
 class OneofOptions;
 class OneofOptionsDefaultTypeInternal;
-extern OneofOptionsDefaultTypeInternal _OneofOptions_default_instance_;
+LIBPROTOBUF_EXPORT extern OneofOptionsDefaultTypeInternal _OneofOptions_default_instance_;
 class ServiceDescriptorProto;
 class ServiceDescriptorProtoDefaultTypeInternal;
-extern ServiceDescriptorProtoDefaultTypeInternal _ServiceDescriptorProto_default_instance_;
+LIBPROTOBUF_EXPORT extern ServiceDescriptorProtoDefaultTypeInternal _ServiceDescriptorProto_default_instance_;
 class ServiceOptions;
 class ServiceOptionsDefaultTypeInternal;
-extern ServiceOptionsDefaultTypeInternal _ServiceOptions_default_instance_;
+LIBPROTOBUF_EXPORT extern ServiceOptionsDefaultTypeInternal _ServiceOptions_default_instance_;
 class SourceCodeInfo;
 class SourceCodeInfoDefaultTypeInternal;
-extern SourceCodeInfoDefaultTypeInternal _SourceCodeInfo_default_instance_;
+LIBPROTOBUF_EXPORT extern SourceCodeInfoDefaultTypeInternal _SourceCodeInfo_default_instance_;
 class SourceCodeInfo_Location;
 class SourceCodeInfo_LocationDefaultTypeInternal;
-extern SourceCodeInfo_LocationDefaultTypeInternal _SourceCodeInfo_Location_default_instance_;
+LIBPROTOBUF_EXPORT extern SourceCodeInfo_LocationDefaultTypeInternal _SourceCodeInfo_Location_default_instance_;
 class UninterpretedOption;
 class UninterpretedOptionDefaultTypeInternal;
-extern UninterpretedOptionDefaultTypeInternal _UninterpretedOption_default_instance_;
+LIBPROTOBUF_EXPORT extern UninterpretedOptionDefaultTypeInternal _UninterpretedOption_default_instance_;
 class UninterpretedOption_NamePart;
 class UninterpretedOption_NamePartDefaultTypeInternal;
-extern UninterpretedOption_NamePartDefaultTypeInternal _UninterpretedOption_NamePart_default_instance_;
+LIBPROTOBUF_EXPORT extern UninterpretedOption_NamePartDefaultTypeInternal _UninterpretedOption_NamePart_default_instance_;
 }  // namespace protobuf
 }  // namespace google
 namespace google {
 namespace protobuf {
-template<> ::google::protobuf::DescriptorProto* Arena::CreateMaybeMessage<::google::protobuf::DescriptorProto>(Arena*);
-template<> ::google::protobuf::DescriptorProto_ExtensionRange* Arena::CreateMaybeMessage<::google::protobuf::DescriptorProto_ExtensionRange>(Arena*);
-template<> ::google::protobuf::DescriptorProto_ReservedRange* Arena::CreateMaybeMessage<::google::protobuf::DescriptorProto_ReservedRange>(Arena*);
-template<> ::google::protobuf::EnumDescriptorProto* Arena::CreateMaybeMessage<::google::protobuf::EnumDescriptorProto>(Arena*);
-template<> ::google::protobuf::EnumDescriptorProto_EnumReservedRange* Arena::CreateMaybeMessage<::google::protobuf::EnumDescriptorProto_EnumReservedRange>(Arena*);
-template<> ::google::protobuf::EnumOptions* Arena::CreateMaybeMessage<::google::protobuf::EnumOptions>(Arena*);
-template<> ::google::protobuf::EnumValueDescriptorProto* Arena::CreateMaybeMessage<::google::protobuf::EnumValueDescriptorProto>(Arena*);
-template<> ::google::protobuf::EnumValueOptions* Arena::CreateMaybeMessage<::google::protobuf::EnumValueOptions>(Arena*);
-template<> ::google::protobuf::ExtensionRangeOptions* Arena::CreateMaybeMessage<::google::protobuf::ExtensionRangeOptions>(Arena*);
-template<> ::google::protobuf::FieldDescriptorProto* Arena::CreateMaybeMessage<::google::protobuf::FieldDescriptorProto>(Arena*);
-template<> ::google::protobuf::FieldOptions* Arena::CreateMaybeMessage<::google::protobuf::FieldOptions>(Arena*);
-template<> ::google::protobuf::FileDescriptorProto* Arena::CreateMaybeMessage<::google::protobuf::FileDescriptorProto>(Arena*);
-template<> ::google::protobuf::FileDescriptorSet* Arena::CreateMaybeMessage<::google::protobuf::FileDescriptorSet>(Arena*);
-template<> ::google::protobuf::FileOptions* Arena::CreateMaybeMessage<::google::protobuf::FileOptions>(Arena*);
-template<> ::google::protobuf::GeneratedCodeInfo* Arena::CreateMaybeMessage<::google::protobuf::GeneratedCodeInfo>(Arena*);
-template<> ::google::protobuf::GeneratedCodeInfo_Annotation* Arena::CreateMaybeMessage<::google::protobuf::GeneratedCodeInfo_Annotation>(Arena*);
-template<> ::google::protobuf::MessageOptions* Arena::CreateMaybeMessage<::google::protobuf::MessageOptions>(Arena*);
-template<> ::google::protobuf::MethodDescriptorProto* Arena::CreateMaybeMessage<::google::protobuf::MethodDescriptorProto>(Arena*);
-template<> ::google::protobuf::MethodOptions* Arena::CreateMaybeMessage<::google::protobuf::MethodOptions>(Arena*);
-template<> ::google::protobuf::OneofDescriptorProto* Arena::CreateMaybeMessage<::google::protobuf::OneofDescriptorProto>(Arena*);
-template<> ::google::protobuf::OneofOptions* Arena::CreateMaybeMessage<::google::protobuf::OneofOptions>(Arena*);
-template<> ::google::protobuf::ServiceDescriptorProto* Arena::CreateMaybeMessage<::google::protobuf::ServiceDescriptorProto>(Arena*);
-template<> ::google::protobuf::ServiceOptions* Arena::CreateMaybeMessage<::google::protobuf::ServiceOptions>(Arena*);
-template<> ::google::protobuf::SourceCodeInfo* Arena::CreateMaybeMessage<::google::protobuf::SourceCodeInfo>(Arena*);
-template<> ::google::protobuf::SourceCodeInfo_Location* Arena::CreateMaybeMessage<::google::protobuf::SourceCodeInfo_Location>(Arena*);
-template<> ::google::protobuf::UninterpretedOption* Arena::CreateMaybeMessage<::google::protobuf::UninterpretedOption>(Arena*);
-template<> ::google::protobuf::UninterpretedOption_NamePart* Arena::CreateMaybeMessage<::google::protobuf::UninterpretedOption_NamePart>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::DescriptorProto* Arena::CreateMaybeMessage<::google::protobuf::DescriptorProto>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::DescriptorProto_ExtensionRange* Arena::CreateMaybeMessage<::google::protobuf::DescriptorProto_ExtensionRange>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::DescriptorProto_ReservedRange* Arena::CreateMaybeMessage<::google::protobuf::DescriptorProto_ReservedRange>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::EnumDescriptorProto* Arena::CreateMaybeMessage<::google::protobuf::EnumDescriptorProto>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::EnumDescriptorProto_EnumReservedRange* Arena::CreateMaybeMessage<::google::protobuf::EnumDescriptorProto_EnumReservedRange>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::EnumOptions* Arena::CreateMaybeMessage<::google::protobuf::EnumOptions>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::EnumValueDescriptorProto* Arena::CreateMaybeMessage<::google::protobuf::EnumValueDescriptorProto>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::EnumValueOptions* Arena::CreateMaybeMessage<::google::protobuf::EnumValueOptions>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::ExtensionRangeOptions* Arena::CreateMaybeMessage<::google::protobuf::ExtensionRangeOptions>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::FieldDescriptorProto* Arena::CreateMaybeMessage<::google::protobuf::FieldDescriptorProto>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::FieldOptions* Arena::CreateMaybeMessage<::google::protobuf::FieldOptions>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::FileDescriptorProto* Arena::CreateMaybeMessage<::google::protobuf::FileDescriptorProto>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::FileDescriptorSet* Arena::CreateMaybeMessage<::google::protobuf::FileDescriptorSet>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::FileOptions* Arena::CreateMaybeMessage<::google::protobuf::FileOptions>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::GeneratedCodeInfo* Arena::CreateMaybeMessage<::google::protobuf::GeneratedCodeInfo>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::GeneratedCodeInfo_Annotation* Arena::CreateMaybeMessage<::google::protobuf::GeneratedCodeInfo_Annotation>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::MessageOptions* Arena::CreateMaybeMessage<::google::protobuf::MessageOptions>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::MethodDescriptorProto* Arena::CreateMaybeMessage<::google::protobuf::MethodDescriptorProto>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::MethodOptions* Arena::CreateMaybeMessage<::google::protobuf::MethodOptions>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::OneofDescriptorProto* Arena::CreateMaybeMessage<::google::protobuf::OneofDescriptorProto>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::OneofOptions* Arena::CreateMaybeMessage<::google::protobuf::OneofOptions>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::ServiceDescriptorProto* Arena::CreateMaybeMessage<::google::protobuf::ServiceDescriptorProto>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::ServiceOptions* Arena::CreateMaybeMessage<::google::protobuf::ServiceOptions>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::SourceCodeInfo* Arena::CreateMaybeMessage<::google::protobuf::SourceCodeInfo>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::SourceCodeInfo_Location* Arena::CreateMaybeMessage<::google::protobuf::SourceCodeInfo_Location>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::UninterpretedOption* Arena::CreateMaybeMessage<::google::protobuf::UninterpretedOption>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::UninterpretedOption_NamePart* Arena::CreateMaybeMessage<::google::protobuf::UninterpretedOption_NamePart>(Arena*);
 }  // namespace protobuf
 }  // namespace google
 namespace google {
@@ -185,12 +185,12 @@ enum FieldDescriptorProto_Type {
   FieldDescriptorProto_Type_TYPE_SINT32 = 17,
   FieldDescriptorProto_Type_TYPE_SINT64 = 18
 };
-bool FieldDescriptorProto_Type_IsValid(int value);
+LIBPROTOBUF_EXPORT bool FieldDescriptorProto_Type_IsValid(int value);
 const FieldDescriptorProto_Type FieldDescriptorProto_Type_Type_MIN = FieldDescriptorProto_Type_TYPE_DOUBLE;
 const FieldDescriptorProto_Type FieldDescriptorProto_Type_Type_MAX = FieldDescriptorProto_Type_TYPE_SINT64;
 const int FieldDescriptorProto_Type_Type_ARRAYSIZE = FieldDescriptorProto_Type_Type_MAX + 1;
 
-const ::google::protobuf::EnumDescriptor* FieldDescriptorProto_Type_descriptor();
+LIBPROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor* FieldDescriptorProto_Type_descriptor();
 inline const ::std::string& FieldDescriptorProto_Type_Name(FieldDescriptorProto_Type value) {
   return ::google::protobuf::internal::NameOfEnum(
     FieldDescriptorProto_Type_descriptor(), value);
@@ -205,12 +205,12 @@ enum FieldDescriptorProto_Label {
   FieldDescriptorProto_Label_LABEL_REQUIRED = 2,
   FieldDescriptorProto_Label_LABEL_REPEATED = 3
 };
-bool FieldDescriptorProto_Label_IsValid(int value);
+LIBPROTOBUF_EXPORT bool FieldDescriptorProto_Label_IsValid(int value);
 const FieldDescriptorProto_Label FieldDescriptorProto_Label_Label_MIN = FieldDescriptorProto_Label_LABEL_OPTIONAL;
 const FieldDescriptorProto_Label FieldDescriptorProto_Label_Label_MAX = FieldDescriptorProto_Label_LABEL_REPEATED;
 const int FieldDescriptorProto_Label_Label_ARRAYSIZE = FieldDescriptorProto_Label_Label_MAX + 1;
 
-const ::google::protobuf::EnumDescriptor* FieldDescriptorProto_Label_descriptor();
+LIBPROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor* FieldDescriptorProto_Label_descriptor();
 inline const ::std::string& FieldDescriptorProto_Label_Name(FieldDescriptorProto_Label value) {
   return ::google::protobuf::internal::NameOfEnum(
     FieldDescriptorProto_Label_descriptor(), value);
@@ -225,12 +225,12 @@ enum FileOptions_OptimizeMode {
   FileOptions_OptimizeMode_CODE_SIZE = 2,
   FileOptions_OptimizeMode_LITE_RUNTIME = 3
 };
-bool FileOptions_OptimizeMode_IsValid(int value);
+LIBPROTOBUF_EXPORT bool FileOptions_OptimizeMode_IsValid(int value);
 const FileOptions_OptimizeMode FileOptions_OptimizeMode_OptimizeMode_MIN = FileOptions_OptimizeMode_SPEED;
 const FileOptions_OptimizeMode FileOptions_OptimizeMode_OptimizeMode_MAX = FileOptions_OptimizeMode_LITE_RUNTIME;
 const int FileOptions_OptimizeMode_OptimizeMode_ARRAYSIZE = FileOptions_OptimizeMode_OptimizeMode_MAX + 1;
 
-const ::google::protobuf::EnumDescriptor* FileOptions_OptimizeMode_descriptor();
+LIBPROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor* FileOptions_OptimizeMode_descriptor();
 inline const ::std::string& FileOptions_OptimizeMode_Name(FileOptions_OptimizeMode value) {
   return ::google::protobuf::internal::NameOfEnum(
     FileOptions_OptimizeMode_descriptor(), value);
@@ -245,12 +245,12 @@ enum FieldOptions_CType {
   FieldOptions_CType_CORD = 1,
   FieldOptions_CType_STRING_PIECE = 2
 };
-bool FieldOptions_CType_IsValid(int value);
+LIBPROTOBUF_EXPORT bool FieldOptions_CType_IsValid(int value);
 const FieldOptions_CType FieldOptions_CType_CType_MIN = FieldOptions_CType_STRING;
 const FieldOptions_CType FieldOptions_CType_CType_MAX = FieldOptions_CType_STRING_PIECE;
 const int FieldOptions_CType_CType_ARRAYSIZE = FieldOptions_CType_CType_MAX + 1;
 
-const ::google::protobuf::EnumDescriptor* FieldOptions_CType_descriptor();
+LIBPROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor* FieldOptions_CType_descriptor();
 inline const ::std::string& FieldOptions_CType_Name(FieldOptions_CType value) {
   return ::google::protobuf::internal::NameOfEnum(
     FieldOptions_CType_descriptor(), value);
@@ -265,12 +265,12 @@ enum FieldOptions_JSType {
   FieldOptions_JSType_JS_STRING = 1,
   FieldOptions_JSType_JS_NUMBER = 2
 };
-bool FieldOptions_JSType_IsValid(int value);
+LIBPROTOBUF_EXPORT bool FieldOptions_JSType_IsValid(int value);
 const FieldOptions_JSType FieldOptions_JSType_JSType_MIN = FieldOptions_JSType_JS_NORMAL;
 const FieldOptions_JSType FieldOptions_JSType_JSType_MAX = FieldOptions_JSType_JS_NUMBER;
 const int FieldOptions_JSType_JSType_ARRAYSIZE = FieldOptions_JSType_JSType_MAX + 1;
 
-const ::google::protobuf::EnumDescriptor* FieldOptions_JSType_descriptor();
+LIBPROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor* FieldOptions_JSType_descriptor();
 inline const ::std::string& FieldOptions_JSType_Name(FieldOptions_JSType value) {
   return ::google::protobuf::internal::NameOfEnum(
     FieldOptions_JSType_descriptor(), value);
@@ -285,12 +285,12 @@ enum MethodOptions_IdempotencyLevel {
   MethodOptions_IdempotencyLevel_NO_SIDE_EFFECTS = 1,
   MethodOptions_IdempotencyLevel_IDEMPOTENT = 2
 };
-bool MethodOptions_IdempotencyLevel_IsValid(int value);
+LIBPROTOBUF_EXPORT bool MethodOptions_IdempotencyLevel_IsValid(int value);
 const MethodOptions_IdempotencyLevel MethodOptions_IdempotencyLevel_IdempotencyLevel_MIN = MethodOptions_IdempotencyLevel_IDEMPOTENCY_UNKNOWN;
 const MethodOptions_IdempotencyLevel MethodOptions_IdempotencyLevel_IdempotencyLevel_MAX = MethodOptions_IdempotencyLevel_IDEMPOTENT;
 const int MethodOptions_IdempotencyLevel_IdempotencyLevel_ARRAYSIZE = MethodOptions_IdempotencyLevel_IdempotencyLevel_MAX + 1;
 
-const ::google::protobuf::EnumDescriptor* MethodOptions_IdempotencyLevel_descriptor();
+LIBPROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor* MethodOptions_IdempotencyLevel_descriptor();
 inline const ::std::string& MethodOptions_IdempotencyLevel_Name(MethodOptions_IdempotencyLevel value) {
   return ::google::protobuf::internal::NameOfEnum(
     MethodOptions_IdempotencyLevel_descriptor(), value);
@@ -302,7 +302,7 @@ inline bool MethodOptions_IdempotencyLevel_Parse(
 }
 // ===================================================================
 
-class FileDescriptorSet : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.FileDescriptorSet) */ {
+class LIBPROTOBUF_EXPORT FileDescriptorSet : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.FileDescriptorSet) */ {
  public:
   FileDescriptorSet();
   virtual ~FileDescriptorSet();
@@ -434,7 +434,7 @@ class FileDescriptorSet : public ::google::protobuf::Message /* @@protoc_inserti
 };
 // -------------------------------------------------------------------
 
-class FileDescriptorProto : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.FileDescriptorProto) */ {
+class LIBPROTOBUF_EXPORT FileDescriptorProto : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.FileDescriptorProto) */ {
  public:
   FileDescriptorProto();
   virtual ~FileDescriptorProto();
@@ -771,7 +771,7 @@ class FileDescriptorProto : public ::google::protobuf::Message /* @@protoc_inser
 };
 // -------------------------------------------------------------------
 
-class DescriptorProto_ExtensionRange : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.DescriptorProto.ExtensionRange) */ {
+class LIBPROTOBUF_EXPORT DescriptorProto_ExtensionRange : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.DescriptorProto.ExtensionRange) */ {
  public:
   DescriptorProto_ExtensionRange();
   virtual ~DescriptorProto_ExtensionRange();
@@ -928,7 +928,7 @@ class DescriptorProto_ExtensionRange : public ::google::protobuf::Message /* @@p
 };
 // -------------------------------------------------------------------
 
-class DescriptorProto_ReservedRange : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.DescriptorProto.ReservedRange) */ {
+class LIBPROTOBUF_EXPORT DescriptorProto_ReservedRange : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.DescriptorProto.ReservedRange) */ {
  public:
   DescriptorProto_ReservedRange();
   virtual ~DescriptorProto_ReservedRange();
@@ -1067,7 +1067,7 @@ class DescriptorProto_ReservedRange : public ::google::protobuf::Message /* @@pr
 };
 // -------------------------------------------------------------------
 
-class DescriptorProto : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.DescriptorProto) */ {
+class LIBPROTOBUF_EXPORT DescriptorProto : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.DescriptorProto) */ {
  public:
   DescriptorProto();
   virtual ~DescriptorProto();
@@ -1348,7 +1348,7 @@ class DescriptorProto : public ::google::protobuf::Message /* @@protoc_insertion
 };
 // -------------------------------------------------------------------
 
-class ExtensionRangeOptions : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.ExtensionRangeOptions) */ {
+class LIBPROTOBUF_EXPORT ExtensionRangeOptions : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.ExtensionRangeOptions) */ {
  public:
   ExtensionRangeOptions();
   virtual ~ExtensionRangeOptions();
@@ -1483,7 +1483,7 @@ class ExtensionRangeOptions : public ::google::protobuf::Message /* @@protoc_ins
 };
 // -------------------------------------------------------------------
 
-class FieldDescriptorProto : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.FieldDescriptorProto) */ {
+class LIBPROTOBUF_EXPORT FieldDescriptorProto : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.FieldDescriptorProto) */ {
  public:
   FieldDescriptorProto();
   virtual ~FieldDescriptorProto();
@@ -1881,7 +1881,7 @@ class FieldDescriptorProto : public ::google::protobuf::Message /* @@protoc_inse
 };
 // -------------------------------------------------------------------
 
-class OneofDescriptorProto : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.OneofDescriptorProto) */ {
+class LIBPROTOBUF_EXPORT OneofDescriptorProto : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.OneofDescriptorProto) */ {
  public:
   OneofDescriptorProto();
   virtual ~OneofDescriptorProto();
@@ -2045,7 +2045,7 @@ class OneofDescriptorProto : public ::google::protobuf::Message /* @@protoc_inse
 };
 // -------------------------------------------------------------------
 
-class EnumDescriptorProto_EnumReservedRange : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.EnumDescriptorProto.EnumReservedRange) */ {
+class LIBPROTOBUF_EXPORT EnumDescriptorProto_EnumReservedRange : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.EnumDescriptorProto.EnumReservedRange) */ {
  public:
   EnumDescriptorProto_EnumReservedRange();
   virtual ~EnumDescriptorProto_EnumReservedRange();
@@ -2184,7 +2184,7 @@ class EnumDescriptorProto_EnumReservedRange : public ::google::protobuf::Message
 };
 // -------------------------------------------------------------------
 
-class EnumDescriptorProto : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.EnumDescriptorProto) */ {
+class LIBPROTOBUF_EXPORT EnumDescriptorProto : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.EnumDescriptorProto) */ {
  public:
   EnumDescriptorProto();
   virtual ~EnumDescriptorProto();
@@ -2399,7 +2399,7 @@ class EnumDescriptorProto : public ::google::protobuf::Message /* @@protoc_inser
 };
 // -------------------------------------------------------------------
 
-class EnumValueDescriptorProto : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.EnumValueDescriptorProto) */ {
+class LIBPROTOBUF_EXPORT EnumValueDescriptorProto : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.EnumValueDescriptorProto) */ {
  public:
   EnumValueDescriptorProto();
   virtual ~EnumValueDescriptorProto();
@@ -2573,7 +2573,7 @@ class EnumValueDescriptorProto : public ::google::protobuf::Message /* @@protoc_
 };
 // -------------------------------------------------------------------
 
-class ServiceDescriptorProto : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.ServiceDescriptorProto) */ {
+class LIBPROTOBUF_EXPORT ServiceDescriptorProto : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.ServiceDescriptorProto) */ {
  public:
   ServiceDescriptorProto();
   virtual ~ServiceDescriptorProto();
@@ -2750,7 +2750,7 @@ class ServiceDescriptorProto : public ::google::protobuf::Message /* @@protoc_in
 };
 // -------------------------------------------------------------------
 
-class MethodDescriptorProto : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.MethodDescriptorProto) */ {
+class LIBPROTOBUF_EXPORT MethodDescriptorProto : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.MethodDescriptorProto) */ {
  public:
   MethodDescriptorProto();
   virtual ~MethodDescriptorProto();
@@ -2988,7 +2988,7 @@ class MethodDescriptorProto : public ::google::protobuf::Message /* @@protoc_ins
 };
 // -------------------------------------------------------------------
 
-class FileOptions : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.FileOptions) */ {
+class LIBPROTOBUF_EXPORT FileOptions : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.FileOptions) */ {
  public:
   FileOptions();
   virtual ~FileOptions();
@@ -3521,7 +3521,7 @@ class FileOptions : public ::google::protobuf::Message /* @@protoc_insertion_poi
 };
 // -------------------------------------------------------------------
 
-class MessageOptions : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.MessageOptions) */ {
+class LIBPROTOBUF_EXPORT MessageOptions : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.MessageOptions) */ {
  public:
   MessageOptions();
   virtual ~MessageOptions();
@@ -3696,7 +3696,7 @@ class MessageOptions : public ::google::protobuf::Message /* @@protoc_insertion_
 };
 // -------------------------------------------------------------------
 
-class FieldOptions : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.FieldOptions) */ {
+class LIBPROTOBUF_EXPORT FieldOptions : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.FieldOptions) */ {
  public:
   FieldOptions();
   virtual ~FieldOptions();
@@ -3947,7 +3947,7 @@ class FieldOptions : public ::google::protobuf::Message /* @@protoc_insertion_po
 };
 // -------------------------------------------------------------------
 
-class OneofOptions : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.OneofOptions) */ {
+class LIBPROTOBUF_EXPORT OneofOptions : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.OneofOptions) */ {
  public:
   OneofOptions();
   virtual ~OneofOptions();
@@ -4082,7 +4082,7 @@ class OneofOptions : public ::google::protobuf::Message /* @@protoc_insertion_po
 };
 // -------------------------------------------------------------------
 
-class EnumOptions : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.EnumOptions) */ {
+class LIBPROTOBUF_EXPORT EnumOptions : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.EnumOptions) */ {
  public:
   EnumOptions();
   virtual ~EnumOptions();
@@ -4237,7 +4237,7 @@ class EnumOptions : public ::google::protobuf::Message /* @@protoc_insertion_poi
 };
 // -------------------------------------------------------------------
 
-class EnumValueOptions : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.EnumValueOptions) */ {
+class LIBPROTOBUF_EXPORT EnumValueOptions : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.EnumValueOptions) */ {
  public:
   EnumValueOptions();
   virtual ~EnumValueOptions();
@@ -4382,7 +4382,7 @@ class EnumValueOptions : public ::google::protobuf::Message /* @@protoc_insertio
 };
 // -------------------------------------------------------------------
 
-class ServiceOptions : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.ServiceOptions) */ {
+class LIBPROTOBUF_EXPORT ServiceOptions : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.ServiceOptions) */ {
  public:
   ServiceOptions();
   virtual ~ServiceOptions();
@@ -4527,7 +4527,7 @@ class ServiceOptions : public ::google::protobuf::Message /* @@protoc_insertion_
 };
 // -------------------------------------------------------------------
 
-class MethodOptions : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.MethodOptions) */ {
+class LIBPROTOBUF_EXPORT MethodOptions : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.MethodOptions) */ {
  public:
   MethodOptions();
   virtual ~MethodOptions();
@@ -4710,7 +4710,7 @@ class MethodOptions : public ::google::protobuf::Message /* @@protoc_insertion_p
 };
 // -------------------------------------------------------------------
 
-class UninterpretedOption_NamePart : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.UninterpretedOption.NamePart) */ {
+class LIBPROTOBUF_EXPORT UninterpretedOption_NamePart : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.UninterpretedOption.NamePart) */ {
  public:
   UninterpretedOption_NamePart();
   virtual ~UninterpretedOption_NamePart();
@@ -4869,7 +4869,7 @@ class UninterpretedOption_NamePart : public ::google::protobuf::Message /* @@pro
 };
 // -------------------------------------------------------------------
 
-class UninterpretedOption : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.UninterpretedOption) */ {
+class LIBPROTOBUF_EXPORT UninterpretedOption : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.UninterpretedOption) */ {
  public:
   UninterpretedOption();
   virtual ~UninterpretedOption();
@@ -5114,7 +5114,7 @@ class UninterpretedOption : public ::google::protobuf::Message /* @@protoc_inser
 };
 // -------------------------------------------------------------------
 
-class SourceCodeInfo_Location : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.SourceCodeInfo.Location) */ {
+class LIBPROTOBUF_EXPORT SourceCodeInfo_Location : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.SourceCodeInfo.Location) */ {
  public:
   SourceCodeInfo_Location();
   virtual ~SourceCodeInfo_Location();
@@ -5338,7 +5338,7 @@ class SourceCodeInfo_Location : public ::google::protobuf::Message /* @@protoc_i
 };
 // -------------------------------------------------------------------
 
-class SourceCodeInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.SourceCodeInfo) */ {
+class LIBPROTOBUF_EXPORT SourceCodeInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.SourceCodeInfo) */ {
  public:
   SourceCodeInfo();
   virtual ~SourceCodeInfo();
@@ -5472,7 +5472,7 @@ class SourceCodeInfo : public ::google::protobuf::Message /* @@protoc_insertion_
 };
 // -------------------------------------------------------------------
 
-class GeneratedCodeInfo_Annotation : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.GeneratedCodeInfo.Annotation) */ {
+class LIBPROTOBUF_EXPORT GeneratedCodeInfo_Annotation : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.GeneratedCodeInfo.Annotation) */ {
  public:
   GeneratedCodeInfo_Annotation();
   virtual ~GeneratedCodeInfo_Annotation();
@@ -5652,7 +5652,7 @@ class GeneratedCodeInfo_Annotation : public ::google::protobuf::Message /* @@pro
 };
 // -------------------------------------------------------------------
 
-class GeneratedCodeInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.GeneratedCodeInfo) */ {
+class LIBPROTOBUF_EXPORT GeneratedCodeInfo : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.GeneratedCodeInfo) */ {
  public:
   GeneratedCodeInfo();
   virtual ~GeneratedCodeInfo();

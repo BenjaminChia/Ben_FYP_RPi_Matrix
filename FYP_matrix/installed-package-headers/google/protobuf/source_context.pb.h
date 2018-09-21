@@ -31,11 +31,11 @@
 #include <google/protobuf/extension_set.h>  // IWYU pragma: export
 #include <google/protobuf/unknown_field_set.h>
 // @@protoc_insertion_point(includes)
-#define PROTOBUF_INTERNAL_EXPORT_protobuf_google_2fprotobuf_2fsource_5fcontext_2eproto 
+#define PROTOBUF_INTERNAL_EXPORT_protobuf_google_2fprotobuf_2fsource_5fcontext_2eproto LIBPROTOBUF_EXPORT
 
 namespace protobuf_google_2fprotobuf_2fsource_5fcontext_2eproto {
 // Internal implementation detail -- do not use these members.
-struct TableStruct {
+struct LIBPROTOBUF_EXPORT TableStruct {
   static const ::google::protobuf::internal::ParseTableField entries[];
   static const ::google::protobuf::internal::AuxillaryParseTableField aux[];
   static const ::google::protobuf::internal::ParseTable schema[1];
@@ -43,18 +43,18 @@ struct TableStruct {
   static const ::google::protobuf::internal::SerializationTable serialization_table[];
   static const ::google::protobuf::uint32 offsets[];
 };
-void AddDescriptors();
+void LIBPROTOBUF_EXPORT AddDescriptors();
 }  // namespace protobuf_google_2fprotobuf_2fsource_5fcontext_2eproto
 namespace google {
 namespace protobuf {
 class SourceContext;
 class SourceContextDefaultTypeInternal;
-extern SourceContextDefaultTypeInternal _SourceContext_default_instance_;
+LIBPROTOBUF_EXPORT extern SourceContextDefaultTypeInternal _SourceContext_default_instance_;
 }  // namespace protobuf
 }  // namespace google
 namespace google {
 namespace protobuf {
-template<> ::google::protobuf::SourceContext* Arena::CreateMaybeMessage<::google::protobuf::SourceContext>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::SourceContext* Arena::CreateMaybeMessage<::google::protobuf::SourceContext>(Arena*);
 }  // namespace protobuf
 }  // namespace google
 namespace google {
@@ -62,7 +62,7 @@ namespace protobuf {
 
 // ===================================================================
 
-class SourceContext : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.SourceContext) */ {
+class LIBPROTOBUF_EXPORT SourceContext : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.SourceContext) */ {
  public:
   SourceContext();
   virtual ~SourceContext();

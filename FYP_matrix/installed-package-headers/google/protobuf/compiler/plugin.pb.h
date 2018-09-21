@@ -32,7 +32,7 @@
 #include <google/protobuf/unknown_field_set.h>
 #include <google/protobuf/descriptor.pb.h>
 // @@protoc_insertion_point(includes)
-#define PROTOBUF_INTERNAL_EXPORT_protobuf_google_2fprotobuf_2fcompiler_2fplugin_2eproto 
+#define PROTOBUF_INTERNAL_EXPORT_protobuf_google_2fprotobuf_2fcompiler_2fplugin_2eproto LIBPROTOC_EXPORT
 #ifdef major
 #undef major
 #endif
@@ -42,7 +42,7 @@
 
 namespace protobuf_google_2fprotobuf_2fcompiler_2fplugin_2eproto {
 // Internal implementation detail -- do not use these members.
-struct TableStruct {
+struct LIBPROTOC_EXPORT TableStruct {
   static const ::google::protobuf::internal::ParseTableField entries[];
   static const ::google::protobuf::internal::AuxillaryParseTableField aux[];
   static const ::google::protobuf::internal::ParseTable schema[4];
@@ -50,32 +50,32 @@ struct TableStruct {
   static const ::google::protobuf::internal::SerializationTable serialization_table[];
   static const ::google::protobuf::uint32 offsets[];
 };
-void AddDescriptors();
+void LIBPROTOC_EXPORT AddDescriptors();
 }  // namespace protobuf_google_2fprotobuf_2fcompiler_2fplugin_2eproto
 namespace google {
 namespace protobuf {
 namespace compiler {
 class CodeGeneratorRequest;
 class CodeGeneratorRequestDefaultTypeInternal;
-extern CodeGeneratorRequestDefaultTypeInternal _CodeGeneratorRequest_default_instance_;
+LIBPROTOC_EXPORT extern CodeGeneratorRequestDefaultTypeInternal _CodeGeneratorRequest_default_instance_;
 class CodeGeneratorResponse;
 class CodeGeneratorResponseDefaultTypeInternal;
-extern CodeGeneratorResponseDefaultTypeInternal _CodeGeneratorResponse_default_instance_;
+LIBPROTOC_EXPORT extern CodeGeneratorResponseDefaultTypeInternal _CodeGeneratorResponse_default_instance_;
 class CodeGeneratorResponse_File;
 class CodeGeneratorResponse_FileDefaultTypeInternal;
-extern CodeGeneratorResponse_FileDefaultTypeInternal _CodeGeneratorResponse_File_default_instance_;
+LIBPROTOC_EXPORT extern CodeGeneratorResponse_FileDefaultTypeInternal _CodeGeneratorResponse_File_default_instance_;
 class Version;
 class VersionDefaultTypeInternal;
-extern VersionDefaultTypeInternal _Version_default_instance_;
+LIBPROTOC_EXPORT extern VersionDefaultTypeInternal _Version_default_instance_;
 }  // namespace compiler
 }  // namespace protobuf
 }  // namespace google
 namespace google {
 namespace protobuf {
-template<> ::google::protobuf::compiler::CodeGeneratorRequest* Arena::CreateMaybeMessage<::google::protobuf::compiler::CodeGeneratorRequest>(Arena*);
-template<> ::google::protobuf::compiler::CodeGeneratorResponse* Arena::CreateMaybeMessage<::google::protobuf::compiler::CodeGeneratorResponse>(Arena*);
-template<> ::google::protobuf::compiler::CodeGeneratorResponse_File* Arena::CreateMaybeMessage<::google::protobuf::compiler::CodeGeneratorResponse_File>(Arena*);
-template<> ::google::protobuf::compiler::Version* Arena::CreateMaybeMessage<::google::protobuf::compiler::Version>(Arena*);
+template<> LIBPROTOC_EXPORT ::google::protobuf::compiler::CodeGeneratorRequest* Arena::CreateMaybeMessage<::google::protobuf::compiler::CodeGeneratorRequest>(Arena*);
+template<> LIBPROTOC_EXPORT ::google::protobuf::compiler::CodeGeneratorResponse* Arena::CreateMaybeMessage<::google::protobuf::compiler::CodeGeneratorResponse>(Arena*);
+template<> LIBPROTOC_EXPORT ::google::protobuf::compiler::CodeGeneratorResponse_File* Arena::CreateMaybeMessage<::google::protobuf::compiler::CodeGeneratorResponse_File>(Arena*);
+template<> LIBPROTOC_EXPORT ::google::protobuf::compiler::Version* Arena::CreateMaybeMessage<::google::protobuf::compiler::Version>(Arena*);
 }  // namespace protobuf
 }  // namespace google
 namespace google {
@@ -84,7 +84,7 @@ namespace compiler {
 
 // ===================================================================
 
-class Version : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.compiler.Version) */ {
+class LIBPROTOC_EXPORT Version : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.compiler.Version) */ {
  public:
   Version();
   virtual ~Version();
@@ -236,7 +236,7 @@ class Version : public ::google::protobuf::Message /* @@protoc_insertion_point(c
 };
 // -------------------------------------------------------------------
 
-class CodeGeneratorRequest : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.compiler.CodeGeneratorRequest) */ {
+class LIBPROTOC_EXPORT CodeGeneratorRequest : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.compiler.CodeGeneratorRequest) */ {
  public:
   CodeGeneratorRequest();
   virtual ~CodeGeneratorRequest();
@@ -409,7 +409,7 @@ class CodeGeneratorRequest : public ::google::protobuf::Message /* @@protoc_inse
 };
 // -------------------------------------------------------------------
 
-class CodeGeneratorResponse_File : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.compiler.CodeGeneratorResponse.File) */ {
+class LIBPROTOC_EXPORT CodeGeneratorResponse_File : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.compiler.CodeGeneratorResponse.File) */ {
  public:
   CodeGeneratorResponse_File();
   virtual ~CodeGeneratorResponse_File();
@@ -567,7 +567,7 @@ class CodeGeneratorResponse_File : public ::google::protobuf::Message /* @@proto
 };
 // -------------------------------------------------------------------
 
-class CodeGeneratorResponse : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.compiler.CodeGeneratorResponse) */ {
+class LIBPROTOC_EXPORT CodeGeneratorResponse : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.compiler.CodeGeneratorResponse) */ {
  public:
   CodeGeneratorResponse();
   virtual ~CodeGeneratorResponse();

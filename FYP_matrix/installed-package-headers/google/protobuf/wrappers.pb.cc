@@ -80,7 +80,7 @@ static void InitDefaultsDoubleValue() {
   ::google::protobuf::DoubleValue::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<0> scc_info_DoubleValue =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<0> scc_info_DoubleValue =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsDoubleValue}, {}};
 
 static void InitDefaultsFloatValue() {
@@ -94,7 +94,7 @@ static void InitDefaultsFloatValue() {
   ::google::protobuf::FloatValue::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<0> scc_info_FloatValue =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<0> scc_info_FloatValue =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsFloatValue}, {}};
 
 static void InitDefaultsInt64Value() {
@@ -108,7 +108,7 @@ static void InitDefaultsInt64Value() {
   ::google::protobuf::Int64Value::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<0> scc_info_Int64Value =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<0> scc_info_Int64Value =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsInt64Value}, {}};
 
 static void InitDefaultsUInt64Value() {
@@ -122,7 +122,7 @@ static void InitDefaultsUInt64Value() {
   ::google::protobuf::UInt64Value::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<0> scc_info_UInt64Value =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<0> scc_info_UInt64Value =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsUInt64Value}, {}};
 
 static void InitDefaultsInt32Value() {
@@ -136,7 +136,7 @@ static void InitDefaultsInt32Value() {
   ::google::protobuf::Int32Value::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<0> scc_info_Int32Value =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<0> scc_info_Int32Value =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsInt32Value}, {}};
 
 static void InitDefaultsUInt32Value() {
@@ -150,7 +150,7 @@ static void InitDefaultsUInt32Value() {
   ::google::protobuf::UInt32Value::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<0> scc_info_UInt32Value =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<0> scc_info_UInt32Value =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsUInt32Value}, {}};
 
 static void InitDefaultsBoolValue() {
@@ -164,7 +164,7 @@ static void InitDefaultsBoolValue() {
   ::google::protobuf::BoolValue::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<0> scc_info_BoolValue =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<0> scc_info_BoolValue =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsBoolValue}, {}};
 
 static void InitDefaultsStringValue() {
@@ -178,7 +178,7 @@ static void InitDefaultsStringValue() {
   ::google::protobuf::StringValue::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<0> scc_info_StringValue =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<0> scc_info_StringValue =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsStringValue}, {}};
 
 static void InitDefaultsBytesValue() {
@@ -192,7 +192,7 @@ static void InitDefaultsBytesValue() {
   ::google::protobuf::BytesValue::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<0> scc_info_BytesValue =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<0> scc_info_BytesValue =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsBytesValue}, {}};
 
 void InitDefaults() {

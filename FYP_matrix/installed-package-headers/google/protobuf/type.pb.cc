@@ -71,7 +71,7 @@ static void InitDefaultsType() {
   ::google::protobuf::Type::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<3> scc_info_Type =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<3> scc_info_Type =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 3, InitDefaultsType}, {
       &protobuf_google_2fprotobuf_2ftype_2eproto::scc_info_Field.base,
       &protobuf_google_2fprotobuf_2ftype_2eproto::scc_info_Option.base,
@@ -88,7 +88,7 @@ static void InitDefaultsField() {
   ::google::protobuf::Field::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<1> scc_info_Field =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<1> scc_info_Field =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsField}, {
       &protobuf_google_2fprotobuf_2ftype_2eproto::scc_info_Option.base,}};
 
@@ -103,7 +103,7 @@ static void InitDefaultsEnum() {
   ::google::protobuf::Enum::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<3> scc_info_Enum =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<3> scc_info_Enum =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 3, InitDefaultsEnum}, {
       &protobuf_google_2fprotobuf_2ftype_2eproto::scc_info_EnumValue.base,
       &protobuf_google_2fprotobuf_2ftype_2eproto::scc_info_Option.base,
@@ -120,7 +120,7 @@ static void InitDefaultsEnumValue() {
   ::google::protobuf::EnumValue::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<1> scc_info_EnumValue =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<1> scc_info_EnumValue =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsEnumValue}, {
       &protobuf_google_2fprotobuf_2ftype_2eproto::scc_info_Option.base,}};
 
@@ -135,7 +135,7 @@ static void InitDefaultsOption() {
   ::google::protobuf::Option::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<1> scc_info_Option =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<1> scc_info_Option =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsOption}, {
       &protobuf_google_2fprotobuf_2fany_2eproto::scc_info_Any.base,}};
 

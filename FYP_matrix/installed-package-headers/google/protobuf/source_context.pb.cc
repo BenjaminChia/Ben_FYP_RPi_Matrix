@@ -40,7 +40,7 @@ static void InitDefaultsSourceContext() {
   ::google::protobuf::SourceContext::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<0> scc_info_SourceContext =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<0> scc_info_SourceContext =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsSourceContext}, {}};
 
 void InitDefaults() {

@@ -8,7 +8,7 @@
 #include <fcntl.h>
 
 #include <grpcpp/grpcpp.h>
-#include <google/cloud/speech/v1/cloud_speech.grpc.pb.h>
+#include <google/cloud/speech/v1/cloud_speech.grpc.pb.cc>
 
 #include <libsocket/inetserverstream.hpp>
 #include <libsocket/exception.hpp>

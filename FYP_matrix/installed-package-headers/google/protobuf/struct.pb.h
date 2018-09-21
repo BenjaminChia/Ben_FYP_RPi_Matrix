@@ -35,11 +35,11 @@
 #include <google/protobuf/generated_enum_reflection.h>
 #include <google/protobuf/unknown_field_set.h>
 // @@protoc_insertion_point(includes)
-#define PROTOBUF_INTERNAL_EXPORT_protobuf_google_2fprotobuf_2fstruct_2eproto 
+#define PROTOBUF_INTERNAL_EXPORT_protobuf_google_2fprotobuf_2fstruct_2eproto LIBPROTOBUF_EXPORT
 
 namespace protobuf_google_2fprotobuf_2fstruct_2eproto {
 // Internal implementation detail -- do not use these members.
-struct TableStruct {
+struct LIBPROTOBUF_EXPORT TableStruct {
   static const ::google::protobuf::internal::ParseTableField entries[];
   static const ::google::protobuf::internal::AuxillaryParseTableField aux[];
   static const ::google::protobuf::internal::ParseTable schema[4];
@@ -47,30 +47,30 @@ struct TableStruct {
   static const ::google::protobuf::internal::SerializationTable serialization_table[];
   static const ::google::protobuf::uint32 offsets[];
 };
-void AddDescriptors();
+void LIBPROTOBUF_EXPORT AddDescriptors();
 }  // namespace protobuf_google_2fprotobuf_2fstruct_2eproto
 namespace google {
 namespace protobuf {
 class ListValue;
 class ListValueDefaultTypeInternal;
-extern ListValueDefaultTypeInternal _ListValue_default_instance_;
+LIBPROTOBUF_EXPORT extern ListValueDefaultTypeInternal _ListValue_default_instance_;
 class Struct;
 class StructDefaultTypeInternal;
-extern StructDefaultTypeInternal _Struct_default_instance_;
+LIBPROTOBUF_EXPORT extern StructDefaultTypeInternal _Struct_default_instance_;
 class Struct_FieldsEntry_DoNotUse;
 class Struct_FieldsEntry_DoNotUseDefaultTypeInternal;
-extern Struct_FieldsEntry_DoNotUseDefaultTypeInternal _Struct_FieldsEntry_DoNotUse_default_instance_;
+LIBPROTOBUF_EXPORT extern Struct_FieldsEntry_DoNotUseDefaultTypeInternal _Struct_FieldsEntry_DoNotUse_default_instance_;
 class Value;
 class ValueDefaultTypeInternal;
-extern ValueDefaultTypeInternal _Value_default_instance_;
+LIBPROTOBUF_EXPORT extern ValueDefaultTypeInternal _Value_default_instance_;
 }  // namespace protobuf
 }  // namespace google
 namespace google {
 namespace protobuf {
-template<> ::google::protobuf::ListValue* Arena::CreateMaybeMessage<::google::protobuf::ListValue>(Arena*);
-template<> ::google::protobuf::Struct* Arena::CreateMaybeMessage<::google::protobuf::Struct>(Arena*);
-template<> ::google::protobuf::Struct_FieldsEntry_DoNotUse* Arena::CreateMaybeMessage<::google::protobuf::Struct_FieldsEntry_DoNotUse>(Arena*);
-template<> ::google::protobuf::Value* Arena::CreateMaybeMessage<::google::protobuf::Value>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::ListValue* Arena::CreateMaybeMessage<::google::protobuf::ListValue>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::Struct* Arena::CreateMaybeMessage<::google::protobuf::Struct>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::Struct_FieldsEntry_DoNotUse* Arena::CreateMaybeMessage<::google::protobuf::Struct_FieldsEntry_DoNotUse>(Arena*);
+template<> LIBPROTOBUF_EXPORT ::google::protobuf::Value* Arena::CreateMaybeMessage<::google::protobuf::Value>(Arena*);
 }  // namespace protobuf
 }  // namespace google
 namespace google {
@@ -81,12 +81,12 @@ enum NullValue {
   NullValue_INT_MIN_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32min,
   NullValue_INT_MAX_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32max
 };
-bool NullValue_IsValid(int value);
+LIBPROTOBUF_EXPORT bool NullValue_IsValid(int value);
 const NullValue NullValue_MIN = NULL_VALUE;
 const NullValue NullValue_MAX = NULL_VALUE;
 const int NullValue_ARRAYSIZE = NullValue_MAX + 1;
 
-const ::google::protobuf::EnumDescriptor* NullValue_descriptor();
+LIBPROTOBUF_EXPORT const ::google::protobuf::EnumDescriptor* NullValue_descriptor();
 inline const ::std::string& NullValue_Name(NullValue value) {
   return ::google::protobuf::internal::NameOfEnum(
     NullValue_descriptor(), value);
@@ -119,7 +119,7 @@ public:
 
 // -------------------------------------------------------------------
 
-class Struct : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.Struct) */ {
+class LIBPROTOBUF_EXPORT Struct : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.Struct) */ {
  public:
   Struct();
   virtual ~Struct();
@@ -246,7 +246,7 @@ class Struct : public ::google::protobuf::Message /* @@protoc_insertion_point(cl
 };
 // -------------------------------------------------------------------
 
-class Value : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.Value) */ {
+class LIBPROTOBUF_EXPORT Value : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.Value) */ {
  public:
   Value();
   virtual ~Value();
@@ -472,7 +472,7 @@ class Value : public ::google::protobuf::Message /* @@protoc_insertion_point(cla
 };
 // -------------------------------------------------------------------
 
-class ListValue : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.ListValue) */ {
+class LIBPROTOBUF_EXPORT ListValue : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:google.protobuf.ListValue) */ {
  public:
   ListValue();
   virtual ~ListValue();

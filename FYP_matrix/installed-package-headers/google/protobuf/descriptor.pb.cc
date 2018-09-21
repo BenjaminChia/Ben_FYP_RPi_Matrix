@@ -197,7 +197,7 @@ static void InitDefaultsFileDescriptorSet() {
   ::google::protobuf::FileDescriptorSet::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<1> scc_info_FileDescriptorSet =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<1> scc_info_FileDescriptorSet =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsFileDescriptorSet}, {
       &protobuf_google_2fprotobuf_2fdescriptor_2eproto::scc_info_FileDescriptorProto.base,}};
 
@@ -212,7 +212,7 @@ static void InitDefaultsFileDescriptorProto() {
   ::google::protobuf::FileDescriptorProto::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<6> scc_info_FileDescriptorProto =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<6> scc_info_FileDescriptorProto =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 6, InitDefaultsFileDescriptorProto}, {
       &protobuf_google_2fprotobuf_2fdescriptor_2eproto::scc_info_DescriptorProto.base,
       &protobuf_google_2fprotobuf_2fdescriptor_2eproto::scc_info_EnumDescriptorProto.base,
@@ -232,7 +232,7 @@ static void InitDefaultsDescriptorProto_ExtensionRange() {
   ::google::protobuf::DescriptorProto_ExtensionRange::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<1> scc_info_DescriptorProto_ExtensionRange =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<1> scc_info_DescriptorProto_ExtensionRange =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsDescriptorProto_ExtensionRange}, {
       &protobuf_google_2fprotobuf_2fdescriptor_2eproto::scc_info_ExtensionRangeOptions.base,}};
 
@@ -247,7 +247,7 @@ static void InitDefaultsDescriptorProto_ReservedRange() {
   ::google::protobuf::DescriptorProto_ReservedRange::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<0> scc_info_DescriptorProto_ReservedRange =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<0> scc_info_DescriptorProto_ReservedRange =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsDescriptorProto_ReservedRange}, {}};
 
 static void InitDefaultsDescriptorProto() {
@@ -261,7 +261,7 @@ static void InitDefaultsDescriptorProto() {
   ::google::protobuf::DescriptorProto::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<6> scc_info_DescriptorProto =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<6> scc_info_DescriptorProto =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 6, InitDefaultsDescriptorProto}, {
       &protobuf_google_2fprotobuf_2fdescriptor_2eproto::scc_info_FieldDescriptorProto.base,
       &protobuf_google_2fprotobuf_2fdescriptor_2eproto::scc_info_EnumDescriptorProto.base,
@@ -281,7 +281,7 @@ static void InitDefaultsExtensionRangeOptions() {
   ::google::protobuf::ExtensionRangeOptions::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<1> scc_info_ExtensionRangeOptions =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<1> scc_info_ExtensionRangeOptions =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsExtensionRangeOptions}, {
       &protobuf_google_2fprotobuf_2fdescriptor_2eproto::scc_info_UninterpretedOption.base,}};
 
@@ -296,7 +296,7 @@ static void InitDefaultsFieldDescriptorProto() {
   ::google::protobuf::FieldDescriptorProto::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<1> scc_info_FieldDescriptorProto =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<1> scc_info_FieldDescriptorProto =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsFieldDescriptorProto}, {
       &protobuf_google_2fprotobuf_2fdescriptor_2eproto::scc_info_FieldOptions.base,}};
 
@@ -311,7 +311,7 @@ static void InitDefaultsOneofDescriptorProto() {
   ::google::protobuf::OneofDescriptorProto::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<1> scc_info_OneofDescriptorProto =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<1> scc_info_OneofDescriptorProto =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsOneofDescriptorProto}, {
       &protobuf_google_2fprotobuf_2fdescriptor_2eproto::scc_info_OneofOptions.base,}};
 
@@ -326,7 +326,7 @@ static void InitDefaultsEnumDescriptorProto_EnumReservedRange() {
   ::google::protobuf::EnumDescriptorProto_EnumReservedRange::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<0> scc_info_EnumDescriptorProto_EnumReservedRange =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<0> scc_info_EnumDescriptorProto_EnumReservedRange =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsEnumDescriptorProto_EnumReservedRange}, {}};
 
 static void InitDefaultsEnumDescriptorProto() {
@@ -340,7 +340,7 @@ static void InitDefaultsEnumDescriptorProto() {
   ::google::protobuf::EnumDescriptorProto::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<3> scc_info_EnumDescriptorProto =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<3> scc_info_EnumDescriptorProto =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 3, InitDefaultsEnumDescriptorProto}, {
       &protobuf_google_2fprotobuf_2fdescriptor_2eproto::scc_info_EnumValueDescriptorProto.base,
       &protobuf_google_2fprotobuf_2fdescriptor_2eproto::scc_info_EnumOptions.base,
@@ -357,7 +357,7 @@ static void InitDefaultsEnumValueDescriptorProto() {
   ::google::protobuf::EnumValueDescriptorProto::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<1> scc_info_EnumValueDescriptorProto =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<1> scc_info_EnumValueDescriptorProto =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsEnumValueDescriptorProto}, {
       &protobuf_google_2fprotobuf_2fdescriptor_2eproto::scc_info_EnumValueOptions.base,}};
 
@@ -372,7 +372,7 @@ static void InitDefaultsServiceDescriptorProto() {
   ::google::protobuf::ServiceDescriptorProto::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<2> scc_info_ServiceDescriptorProto =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<2> scc_info_ServiceDescriptorProto =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 2, InitDefaultsServiceDescriptorProto}, {
       &protobuf_google_2fprotobuf_2fdescriptor_2eproto::scc_info_MethodDescriptorProto.base,
       &protobuf_google_2fprotobuf_2fdescriptor_2eproto::scc_info_ServiceOptions.base,}};
@@ -388,7 +388,7 @@ static void InitDefaultsMethodDescriptorProto() {
   ::google::protobuf::MethodDescriptorProto::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<1> scc_info_MethodDescriptorProto =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<1> scc_info_MethodDescriptorProto =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsMethodDescriptorProto}, {
       &protobuf_google_2fprotobuf_2fdescriptor_2eproto::scc_info_MethodOptions.base,}};
 
@@ -403,7 +403,7 @@ static void InitDefaultsFileOptions() {
   ::google::protobuf::FileOptions::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<1> scc_info_FileOptions =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<1> scc_info_FileOptions =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsFileOptions}, {
       &protobuf_google_2fprotobuf_2fdescriptor_2eproto::scc_info_UninterpretedOption.base,}};
 
@@ -418,7 +418,7 @@ static void InitDefaultsMessageOptions() {
   ::google::protobuf::MessageOptions::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<1> scc_info_MessageOptions =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<1> scc_info_MessageOptions =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsMessageOptions}, {
       &protobuf_google_2fprotobuf_2fdescriptor_2eproto::scc_info_UninterpretedOption.base,}};
 
@@ -433,7 +433,7 @@ static void InitDefaultsFieldOptions() {
   ::google::protobuf::FieldOptions::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<1> scc_info_FieldOptions =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<1> scc_info_FieldOptions =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsFieldOptions}, {
       &protobuf_google_2fprotobuf_2fdescriptor_2eproto::scc_info_UninterpretedOption.base,}};
 
@@ -448,7 +448,7 @@ static void InitDefaultsOneofOptions() {
   ::google::protobuf::OneofOptions::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<1> scc_info_OneofOptions =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<1> scc_info_OneofOptions =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsOneofOptions}, {
       &protobuf_google_2fprotobuf_2fdescriptor_2eproto::scc_info_UninterpretedOption.base,}};
 
@@ -463,7 +463,7 @@ static void InitDefaultsEnumOptions() {
   ::google::protobuf::EnumOptions::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<1> scc_info_EnumOptions =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<1> scc_info_EnumOptions =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsEnumOptions}, {
       &protobuf_google_2fprotobuf_2fdescriptor_2eproto::scc_info_UninterpretedOption.base,}};
 
@@ -478,7 +478,7 @@ static void InitDefaultsEnumValueOptions() {
   ::google::protobuf::EnumValueOptions::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<1> scc_info_EnumValueOptions =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<1> scc_info_EnumValueOptions =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsEnumValueOptions}, {
       &protobuf_google_2fprotobuf_2fdescriptor_2eproto::scc_info_UninterpretedOption.base,}};
 
@@ -493,7 +493,7 @@ static void InitDefaultsServiceOptions() {
   ::google::protobuf::ServiceOptions::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<1> scc_info_ServiceOptions =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<1> scc_info_ServiceOptions =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsServiceOptions}, {
       &protobuf_google_2fprotobuf_2fdescriptor_2eproto::scc_info_UninterpretedOption.base,}};
 
@@ -508,7 +508,7 @@ static void InitDefaultsMethodOptions() {
   ::google::protobuf::MethodOptions::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<1> scc_info_MethodOptions =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<1> scc_info_MethodOptions =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsMethodOptions}, {
       &protobuf_google_2fprotobuf_2fdescriptor_2eproto::scc_info_UninterpretedOption.base,}};
 
@@ -523,7 +523,7 @@ static void InitDefaultsUninterpretedOption_NamePart() {
   ::google::protobuf::UninterpretedOption_NamePart::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<0> scc_info_UninterpretedOption_NamePart =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<0> scc_info_UninterpretedOption_NamePart =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsUninterpretedOption_NamePart}, {}};
 
 static void InitDefaultsUninterpretedOption() {
@@ -537,7 +537,7 @@ static void InitDefaultsUninterpretedOption() {
   ::google::protobuf::UninterpretedOption::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<1> scc_info_UninterpretedOption =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<1> scc_info_UninterpretedOption =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsUninterpretedOption}, {
       &protobuf_google_2fprotobuf_2fdescriptor_2eproto::scc_info_UninterpretedOption_NamePart.base,}};
 
@@ -552,7 +552,7 @@ static void InitDefaultsSourceCodeInfo_Location() {
   ::google::protobuf::SourceCodeInfo_Location::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<0> scc_info_SourceCodeInfo_Location =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<0> scc_info_SourceCodeInfo_Location =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsSourceCodeInfo_Location}, {}};
 
 static void InitDefaultsSourceCodeInfo() {
@@ -566,7 +566,7 @@ static void InitDefaultsSourceCodeInfo() {
   ::google::protobuf::SourceCodeInfo::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<1> scc_info_SourceCodeInfo =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<1> scc_info_SourceCodeInfo =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsSourceCodeInfo}, {
       &protobuf_google_2fprotobuf_2fdescriptor_2eproto::scc_info_SourceCodeInfo_Location.base,}};
 
@@ -581,7 +581,7 @@ static void InitDefaultsGeneratedCodeInfo_Annotation() {
   ::google::protobuf::GeneratedCodeInfo_Annotation::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<0> scc_info_GeneratedCodeInfo_Annotation =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<0> scc_info_GeneratedCodeInfo_Annotation =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsGeneratedCodeInfo_Annotation}, {}};
 
 static void InitDefaultsGeneratedCodeInfo() {
@@ -595,7 +595,7 @@ static void InitDefaultsGeneratedCodeInfo() {
   ::google::protobuf::GeneratedCodeInfo::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<1> scc_info_GeneratedCodeInfo =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<1> scc_info_GeneratedCodeInfo =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 1, InitDefaultsGeneratedCodeInfo}, {
       &protobuf_google_2fprotobuf_2fdescriptor_2eproto::scc_info_GeneratedCodeInfo_Annotation.base,}};
 

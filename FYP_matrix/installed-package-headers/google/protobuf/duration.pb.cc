@@ -40,7 +40,7 @@ static void InitDefaultsDuration() {
   ::google::protobuf::Duration::InitAsDefaultInstance();
 }
 
-::google::protobuf::internal::SCCInfo<0> scc_info_Duration =
+LIBPROTOBUF_EXPORT ::google::protobuf::internal::SCCInfo<0> scc_info_Duration =
     {{ATOMIC_VAR_INIT(::google::protobuf::internal::SCCInfoBase::kUninitialized), 0, InitDefaultsDuration}, {}};
 
 void InitDefaults() {
